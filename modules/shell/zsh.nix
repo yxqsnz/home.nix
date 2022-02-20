@@ -7,6 +7,7 @@ with builtins; {
     initExtra = ''
       bindkey "^[[H" beginning-of-line
       bindkey "^[[6~" end-of-line
+      export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/bin"
     '';
     shellAliases = {
       ll = "ls -l";
