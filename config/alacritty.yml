@@ -68,30 +68,31 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Iosevka
-    style: Light
+    family: FiraCode Nerd Font
+    #family: Iosevka
+    #style: Light
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: Retina
 
   # The bold font face
   bold:
-    family: Iosevka
+#    family: Iosevka
     style: Medium
     # family: "Fira Code"
     # family: "Source Code Pro"
 
   # The italic font face
   italic:
-    family: Iosevka
-    style: "Light Italic"
+#    family: Iosevka
+    style: Italic
     # style: "Light Oblique"
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: "Medium Italic"
 
   # Point size of the font
-  size: 14.0
+  size: 12.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.

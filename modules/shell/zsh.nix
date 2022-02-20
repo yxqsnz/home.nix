@@ -1,6 +1,5 @@
 { pkgs, ... }:
-with builtins;
-{
+with builtins; {
   programs.home-manager.enable = true;
   programs.zsh = {
     enable = true;
@@ -14,6 +13,9 @@ with builtins;
       system-update = "sudo nixos-rebuild switch";
       update = "home-manager switch";
       pls = "sudo";
+      ls = "exa -a --icons";
+      tree = "exa --tree --icons";
+      "with" = "nix-shell -p";
     };
     history = {
       size = 10000;

@@ -14,11 +14,9 @@ let
     tdesktop
     obs-studio
     gnome.nautilus
-    wf-recorder
     # Dev
     rustup
     llvmPackages_13.libcxxClang
-    #gcc
     gdb
     lldb
     git
@@ -49,6 +47,7 @@ let
     gnupg
     libcxx
     libcxxabi
+    exa
   ];
 in {
   nixpkgs.config.allowUnfree = true;
