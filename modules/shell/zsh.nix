@@ -5,9 +5,14 @@ with builtins;
   programs.zsh = {
     enable = true;
     initExtraFirst = readFile ../../config/zsh/powerlevel10k.zsh;
+    initExtra = ''
+      bindkey "^[[H" beginning-of-line
+      bindkey "^[[6~" end-of-line
+    '';
     shellAliases = {
       ll = "ls -l";
-      update = "sudo nixos-rebuild switch";
+      system-update = "sudo nixos-rebuild switch";
+      update = "home-manager switch";
       pls = "sudo";
     };
     history = {

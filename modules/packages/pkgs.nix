@@ -45,6 +45,8 @@ let
     yarn
     gnumake
     coreutils
+    pinentry
+    gnupg
     libcxx
     libcxxabi
   ];
