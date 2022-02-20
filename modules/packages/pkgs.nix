@@ -21,6 +21,7 @@ let
     libcxx
     rustup
     udiskie
+    ncurses
     sccache
     openssl
     libkrb5
