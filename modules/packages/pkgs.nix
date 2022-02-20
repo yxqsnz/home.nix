@@ -19,6 +19,7 @@ let
     docker
     nodejs
     libcxx
+    rustup
     udiskie
     sccache
     openssl
@@ -35,7 +36,6 @@ let
     pkg-config
     wl-clipboard
     discord-canary
-
   ];
 in {
   nixpkgs.config.allowUnfree = true;
