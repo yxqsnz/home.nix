@@ -36,6 +36,7 @@ let
     pkg-config
     wl-clipboard
     discord-canary
+    llvmPackages_13.libcxxClang
   ];
 in {
   nixpkgs.config.allowUnfree = true;
