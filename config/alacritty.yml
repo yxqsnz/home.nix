@@ -68,9 +68,8 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: FiraCode Nerd Font
+    family: Iosevka Nerd Font
     #family: Iosevka
-    #style: Light
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: Retina

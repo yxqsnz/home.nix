@@ -1,53 +1,41 @@
-{pkgs, ...}:
+{ pkgs, ... }:
 with pkgs;
 with sway-contrib;
 let
   pkgs = [
-    micro
-    neovim
-    firefox
-    xdg-utils
-    papirus-icon-theme
-    waybar
-    mako
-    grimshot
-    tdesktop
-    obs-studio
-    gnome.nautilus
-    # Dev
-    rustup
-    llvmPackages_13.libcxxClang
-    gdb
-    lldb
-    git
-    vscode
-    acpi
-    discord-canary
-    nixfmt
-    mold
-    udiskie
-		alacritty
-		arc-theme
-		mpd
-		playerctl
-    wl-clipboard
-    pkg-config
-    sccache
     fd
+    gdb
+    git
+    mpd
+    exa
+    lldb
+    acpi
+    mold
+    zlib
+    yarn
+    gnupg
+    vscode
+    nixfmt
+    docker
+    nodejs
+    libcxx
+    udiskie
+    sccache
     openssl
     libkrb5
-    zlib
-    docker
     python3
-    nodejs
-    yarn
     gnumake
-    coreutils
     pinentry
-    gnupg
-    libcxx
+    playerctl
+    alacritty
+    arc-theme
+    coreutils
     libcxxabi
-    exa
+    libnotify
+    pkg-config
+    wl-clipboard
+    discord-canary
+
   ];
 in {
   nixpkgs.config.allowUnfree = true;
