@@ -1,60 +1,12 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator
-# bom dia galera do youtube
-
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty it self.
-# env:
-# TERM env customization.
-#
-# If this property is not set, alacritty will set it to xterm-256color.
-#
-# Note that some xterm terminfo databases don't declare support for italics.
-# You can verify this by checking for the presence of `smso` and `sitm` in
-# `infocmp xterm-256color`.
-# TERM: xterm-256color-italic
-
 window:
-  # Window dimensions (changes require restart)
-  #
-  # Specified in number of columns/lines, not pixels. If both are zero this
-  # setting is ignored.
-  dimensions:
-    columns: 100
-    lines: 85
-  opacity: 0.7
-
-  # Window padding (changes require restart)
-  #
-  # Blank space added around the window in pixels. This padding is not scaled by
-  # DPI and the specified value is always added at both opposing sides.
+  opacity: 0.6
   padding:
-    x: 0
-    y: 0
+    x: 10
+    y: 10
 
-  # Spread additional padding evenly around the terminal content.
-  dynamic_padding: false
-
-  # Window decorations
-  #
-  # Available values:
-  # - full: borders and title bar
-  # - none: neither borders nor title bar
-  # - transparent: title bar, transparent background and title bar buttons
-  # - buttonless: title bar, transparent background, but no title bar buttons
-  decorations: None
-
-  # Startup Mode (changes require restart)
-  #
-  # Values for `startup_mode`:
-  #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
-  startup_mode: Windowed
-
+#  dynamic_padding: false
+#  decorations: None
+background_opacity: 0.6
 scrolling:
   # maximum number of lines in the scrollback buffer. Specifying '0' will
   # disable scrolling.

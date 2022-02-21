@@ -13,6 +13,7 @@ let
     mold
     zlib
     yarn
+    mako
     gnupg
     vscode
     nixfmt
@@ -20,24 +21,32 @@ let
     nodejs
     libcxx
     rustup
+    waybar
     udiskie
     ncurses
     sccache
-    openssl
+    firefox
     libkrb5
     python3
     gnumake
+    xdg-utils
+    clang_13
+    libiconv
     pinentry
+    grimshot
     playerctl
     alacritty
     arc-theme
     coreutils
+    openssl
+    openssl.dev
     libcxxabi
     libnotify
     pkg-config
+    clang-tools
     wl-clipboard
     discord-canary
-    llvmPackages_13.libcxxClang
+    #binutils-unwrapped
   ];
 in {
   nixpkgs.config.allowUnfree = true;
