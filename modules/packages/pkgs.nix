@@ -46,6 +46,7 @@ let
     clang-tools
     wl-clipboard
     discord-canary
+    tdesktop
     #binutils-unwrapped
   ];
 in {

@@ -14,7 +14,7 @@ with builtins; {
       system-update = "sudo nixos-rebuild switch";
       update = "home-manager switch";
       pls = "sudo";
-      ls = "exa -a --icons";
+      ls = "exa --icons";
       tree = "exa --tree --icons";
       "with" = "nix-shell -p";
     };
