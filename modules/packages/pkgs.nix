@@ -22,6 +22,7 @@ let
     libcxx
     rustup
     waybar
+    flashfocus
     udiskie
     ncurses
     sccache
@@ -37,16 +38,26 @@ let
     playerctl
     alacritty
     arc-theme
+    kdenlive
     coreutils
-    openssl
-    openssl.dev
+    openssl openssl.dev
     libcxxabi
     libnotify
     pkg-config
     clang-tools
     wl-clipboard
+    obs-studio
     discord-canary
     tdesktop
+    cargo-edit 
+    
+    # TODO: Migrate to Wofi
+    wofi
+    papirus-icon-theme 
+  
+    rust-analyzer
+    numix-cursor-theme
+    flat-remix-icon-theme
     #binutils-unwrapped
   ];
 in {
