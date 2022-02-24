@@ -8,7 +8,8 @@
     ./modules/apps/git.nix
     ./modules/apps/waybar.nix
     ./modules/apps/code.nix
+    ./modules/apps/mako.nix
     ./modules/other/xdg.nix
-    ./modules/apps/code.nix
+    
   ];
 }
