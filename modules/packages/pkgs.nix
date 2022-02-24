@@ -9,6 +9,7 @@ let
     mpd
     exa
     lldb
+    tokei
     acpi
     mold
     zlib

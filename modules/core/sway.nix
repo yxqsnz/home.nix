@@ -1,5 +1,6 @@
 { config, lib, pkgs, ... }:
 with pkgs;
+with lib;
 
 let
   wallpaper = "/home/yxqsnz/Documents/nixos-darkblueice.png";
@@ -30,6 +31,10 @@ in {
       menu = "wofi --show drun";
       seat = { "*" = { hide_cursor = "when-typing enable"; }; };
       bars = [{ command = "waybar"; }];
+      gaps = {
+        inner = 12;
+        outer = 12;
+      };
       colors = let
         border = "#A4B9EF";
         foc_bg = "#332E41";
