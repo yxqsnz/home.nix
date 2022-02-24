@@ -187,7 +187,6 @@ in {
             "${udiskie}/bin/udiskie -s --appindicator --menu-update-workaround -f ${pkgs.gnome.nautilus}/bin/nautilus";
         }
         { command = "gnome-keyring-daemon --start --components=secrets"; }
-        { command = "flashfocus"; }
       ];
       terminal = "${pkgs.alacritty}/bin/alacritty";
       window = {
