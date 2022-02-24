@@ -132,11 +132,11 @@ in {
         "${cfg.config.modifier}+f" = "fullscreen toggle";
         "${cfg.config.modifier}+a" = "focus parent";
 
-        "${cfg.config.modifier}+s" = "layout stacking";
+        "${cfg.config.modifier}+Shift+s" = "layout stacking";
         "${cfg.config.modifier}+w" = "layout tabbed";
         "${cfg.config.modifier}+e" = "layout toggle split";
 
-        "Mod1+Shift+space" = "floating toggle";
+        "${mod}+s" = "floating toggle";
         "Mod1+f" = "focus mode_toggle";
 
         "${cfg.config.modifier}+1" = "workspace number 1";
