@@ -4,11 +4,11 @@ local vim = vim
 require "paq" {
 	-- paq
 	"savq/paq-nvim",
-
+	
 	-- colors
 	"norcalli/nvim-colorizer.lua",
 	"nonamescm/notheme.nvim",
-
+	"rust-lang/rust.vim",
 	-- syntax
 	"nonamescm/neofsharp.vim",
 
