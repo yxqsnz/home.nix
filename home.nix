@@ -9,6 +9,7 @@
     ./modules/apps/waybar.nix
     ./modules/apps/code.nix
     ./modules/apps/mako.nix
+    ./modules/apps/neovim.nix
     ./modules/other/xdg.nix
     
   ];

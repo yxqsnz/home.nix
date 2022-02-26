@@ -180,7 +180,7 @@ in {
       startup = [
         {
           command =
-            "${pkgs.sway-contrib.inactive-windows-transparency}/bin/inactive-windows-transparency.py -o 0.1";
+            "${pkgs.sway-contrib.inactive-windows-transparency}/bin/inactive-windows-transparency.py -o 0.8";
         }
         {
           command =

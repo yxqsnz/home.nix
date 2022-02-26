@@ -4,7 +4,9 @@ with sway-contrib;
 let
   pkgs = [
     fd
+    emacs
     gdb
+    lld
     git
     mpd
     exa
@@ -41,7 +43,8 @@ let
     arc-theme
     kdenlive
     coreutils
-    openssl openssl.dev
+    openssl
+    openssl.dev
     libcxxabi
     libnotify
     pkg-config
@@ -50,15 +53,18 @@ let
     obs-studio
     discord-canary
     tdesktop
-    cargo-edit 
-    
-    # TODO: Migrate to Wofi
+    cargo-edit
+    rnix-lsp
+    fantasque-sans-mono
+    sumneko-lua-language-server
     wofi
-    papirus-icon-theme 
-  
+    papirus-icon-theme
+    gh
+    pfetch
     rust-analyzer
     numix-cursor-theme
     flat-remix-icon-theme
+    brave
     #binutils-unwrapped
   ];
 in {
